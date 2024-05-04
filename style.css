@@ -1,0 +1,254 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* UTILITY STYLING */
+.text-primary {
+  color: #b19700;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.btn {
+  margin-bottom: 5px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  display: inline-block;
+  border: none;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.bg-dark {
+  background: #444;
+  color: #fff;
+}
+
+.bg-light {
+  background: #ddd;
+}
+
+.bg-primary {
+  background: #b19700;
+}
+
+/* PADDING */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+.clr {
+  clear: both;
+}
+
+/* MAIN STYLING */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+/* NAVBAR */
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style-type: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active,
+.btn:hover {
+  background: #444;
+  color: #b19700;
+}
+
+/* SHOWCASE */
+#showcase {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-1.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  padding-top: 170px;
+  text-align: center;
+}
+
+#showcase .showcase-content h2 {
+  font-size: 50px;
+  line-height: 1.1em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+}
+
+/* HOME INFO */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-2.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+
+#home-info .info-img:hover {
+  transition: .7s ease-in;
+  opacity: 0.8;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  margin: 30px 0 0 0;
+
+}
+#home-info .info-img-2 {
+  float: right;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("../img/photo-3.jpg") no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+
+#home-info .info-img-2:hover {
+  transition: .7s ease-in;
+  opacity: 0.8;
+}
+
+#home-info .info-content-2 {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin: 30px 0 0 0;
+
+}
+
+/* FEATURES */
+#features {
+  border-top: 1px solid #444;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+/* ABOUT - INFO */
+#about-info .info-right{
+  float: right;
+  width: 50%;
+}
+
+#about-info .info-right img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* TESTIMONIAL */
+#testimonial {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("/img/photo-3.jpg") no-repeat center center/cover;
+  padding-top: 40px;
+}
+
+#testimonial .testimonial {
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+#testimonial h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+/* CONTACT FORM */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  /*This block, hope you understand*/
+  display: block; 
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+/* FOOTER */
+#main-footer {
+  text-align: center;
+  background: #b19700;
+  color: #fff;
+  padding: 20px;
+}

@@ -1,0 +1,66 @@
+/* MOBILE NAVBAR */
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+  float: none;
+}
+
+/* MOBILE HOME */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+#home-info .info-img-2 {
+  display: none;
+}
+
+#home-info .info-content-2 {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+/*  MOBILE FEATURES */
+#features {
+  border-top: 1px solid #444;
+
+}
+
+.box {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+/* MOBILE ABOUT */
+#about-info .info-right{
+  float: right;
+  width: 50%;
+}
+
+#about-info .info-right img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#about-info .info-left {
+ 
+  width: 100%;
+  min-height: 100%;
+}
+
+
